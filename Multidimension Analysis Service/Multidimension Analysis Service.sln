@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Multidimension Analysis Service", "Multidimension Analysis Service.dwproj", "{6B7A555A-3A7E-42F2-A8C0-4276A8C9B69A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B7A555A-3A7E-42F2-A8C0-4276A8C9B69A}.Development|Default.ActiveCfg = Development
+		{6B7A555A-3A7E-42F2-A8C0-4276A8C9B69A}.Development|Default.Build.0 = Development
+		{6B7A555A-3A7E-42F2-A8C0-4276A8C9B69A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C556FD9B-8545-4390-B841-C7CAB907ACEE}
+	EndGlobalSection
+EndGlobal

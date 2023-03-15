@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Multidimension Analysis Service</Database>
+    <Server>NICK-DESK\CSSE_DWL_2022</Server>
+    <ConnectionString>Data Source=NICK-DESK\CSSE_DWL_2022;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>36FJDfopKTbU6k5uxAeuo8u19Ek=2/05/2022 2:16:12 AM2/05/2022 2:07:50 AM</TimeStamp>
+        <ID>
+          <String>Job Posts DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>u3AU73owWhO7y2BrKUIARNQBfwg=2/05/2022 2:09:06 AM2/05/2022 2:09:05 AM</TimeStamp>
+        <ID>
+          <String>Job Posts DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XFxjx02g2C/nGYhGGAcua9afl9k=2/05/2022 2:19:54 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VpnIGCONeZMjbggGnziA9TNbhCQ=2/05/2022 2:23:38 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Company</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UZPxdXbaUs6f8SJgkvnZBMVj5ms=2/05/2022 2:24:51 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JeuAduTkE/kLncK7LbgX1vSozmw=2/05/2022 2:27:04 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Job</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7hj0V7YD4oNo4vafC1ywkZvjk7g=2/05/2022 2:27:54 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Job Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SPhjq9jDWDbuzcBZPlpo/QD8yLc=2/05/2022 2:28:30 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Board</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8zZTaSBMMEUFWNsOT1+SUcxQWFA=2/05/2022 2:11:30 AM2/05/2022 2:11:30 AM</TimeStamp>
+        <ID>
+          <String>Job Posts</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>d3N4CRB/1buM3GLeUOcLhi+CMVc=2/05/2022 2:24:51 AM2/05/2022 2:11:29 AMKrgsYj1FYXUn6Tn0LEgP1GqxWIE=2/05/2022 2:11:30 AM2/05/2022 2:11:29 AM</TimeStamp>
+        <ID>
+          <String>Job Posts DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>23+yx6b+5PDG7xS0aPwCkTR06iE=2/05/2022 2:04:59 AM2/05/2022 2:04:59 AM</TimeStamp>
+      <ID>
+        <String>Multidimension Analysis Service</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-01T18:29:49.693333Z</LastDeployed>
+</DeploymentSnapshot>
